@@ -376,7 +376,7 @@ const App = () => {
                <Layers size={20} className="text-white" strokeWidth={2} />
             </div>
             <h1 className="text-[20px] font-bold tracking-tight text-[#1D1D1F]">
-              Prompt<span className="font-light text-gray-500">Hub</span><span className="text-[#0071E3] text-sm ml-1 font-black">PRO</span>
+              Prompt<span className="font-light text-gray-500">Hub</span>
             </h1>
           </div>
           <button className="md:hidden text-gray-500 hover:bg-gray-200/60 p-1.5 rounded-full transition-colors" onClick={() => setIsMobileMenuOpen(false)}>
@@ -452,11 +452,11 @@ const App = () => {
           <div className="flex items-center justify-between p-3 rounded-2xl bg-white/60 backdrop-blur-md border border-white shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
             <div className="flex items-center space-x-3">
               <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-gray-200 to-gray-300 flex items-center justify-center shadow-inner overflow-hidden border border-white">
-                <span className="text-gray-600 text-[10px] font-bold">PJ</span>
+                <span className="text-gray-600 text-[10px] font-bold">PH</span>
               </div>
               <div className="text-[13px]">
-                <p className="font-semibold text-[#1D1D1F] leading-tight">Paul J Lipsky</p>
-                <p className="text-gray-400 text-[11px] font-medium">Pro Creator</p>
+                <p className="font-semibold text-[#1D1D1F] leading-tight">Prompt Hub</p>
+                <p className="text-gray-400 text-[11px] font-medium">Workspace</p>
               </div>
             </div>
             <Zap size={14} className="text-yellow-500 fill-yellow-500 mr-1" />
